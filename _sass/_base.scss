@@ -198,7 +198,13 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: white;
+        }
+    }
+
+    > svg:hover {
+        path {
+            fill: #8792a7;
         }
     }
 }
